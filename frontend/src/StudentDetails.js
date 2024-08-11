@@ -14,7 +14,7 @@ function StudentDetails(){
     }, [id]);
 
     const backToList = () => {
-        navigate("/students");
+        navigate("/");
     }
 
     return (
